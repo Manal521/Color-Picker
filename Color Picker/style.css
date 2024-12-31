@@ -1,0 +1,39 @@
+                        #colorbox {
+                            width: 100px;
+                            height: 100px;
+                            margin-top: 20px;
+                            border: 2px solid #ccc;
+                            margin-left: 60px;
+                            border-radius: 5px;
+                        }
+                        
+                        .container {
+                            text-align: center;
+                            box-shadow: 20px 20px 20px rgb(118, 119, 117);
+                            padding: 50px;
+                            height: 350px;
+                            width: 225px;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            background-color: rgb(255, 255, 255);
+                            border-radius: 30px;
+                        }
+                        
+                        body {
+                            background-color: rgb(255, 235, 210);
+                        }
+                        
+                        h1 {
+                            font-family: Georgia, 'Times New Roman', Times, serif;
+                        }
+                        
+                        @media (max-width: 500px) {
+                            .container {
+                                padding: 15px;
+                                /* Less padding for smaller screens */
+                                width: 90%;
+                                /* Let the container take up more space */
+                            }
+                        }
